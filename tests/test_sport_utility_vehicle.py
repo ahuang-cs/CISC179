@@ -1,6 +1,6 @@
 from cisc179.SportUtilityVehicle import SportUtilityVehicle
 def testSportUtilityVehicle():
-   suv = SportUtilityVehicle("Toyota", 19000, 75995, 6, [], 4500);
+   suv = SportUtilityVehicle("Toyota", 19000, 75995, 6, 4500);
 
    assert suv.getManufacturerName() == "Toyota"
    assert suv.getMilesOnVehicle() == 19000

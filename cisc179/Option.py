@@ -8,3 +8,4 @@ class Option:
     def setDetails(self, newDetails):
         if newDetails == "" or len(newDetails) > 32 or not isinstance(newDetails, str):
             raise ValueError("Option details must contain a string with less than 32 characters.")
+        self.details = newDetails

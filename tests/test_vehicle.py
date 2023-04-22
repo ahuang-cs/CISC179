@@ -28,5 +28,5 @@ def testVehiclePriceValidation():
 
 def testVehicleNumberOfSeatsValidation():
    with raises(ValueError, match="Vehicle number of seats must be a non-negative whole number."):
-      vehicle = Vehicle("GMC", 80000, -7995.90, 4.5, [])
+      vehicle = Vehicle("GMC", 80000, 7995.90, -4, [])
       vehicle = Vehicle("GMC", 80000, 7999.95, "c", [])

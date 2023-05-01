@@ -6,3 +6,8 @@
 
 pytest~=7.2.2
 setuptools~=65.5.1
+cisc179~=0.1.0
+numpy~=1.24.3
+matplotlib~=3.7.1
+seaborn
+pandas~=2.0.1

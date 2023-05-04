@@ -1,8 +1,9 @@
-### Exercise 1
-# Create a figure of size 15x8 with two subplots, top and bottom.
-# Draw two lines in the top axes, one green and one orange.
-# Add a legend for the top plot, *Green* and *Orange*. Put this legend in the top-middle of graph.
-# **Extra Challenge**: In the bottom axes, create a graph of only the data points, marked by circles, but with no line connecting the points.
+### Exercise 3
+# Visualize the mock data given below.<br>
+# Create bars to represent the turnover for each market.<br>
+# Keep in mind that showing too much information on a graph can be overwhelming, so do it with discretion !<br>
+# Use labels to make sure your audience understands the graph.<br>
+# **Extra Challenge**:  On the opposite axis, draw a line to show each market share. (Hint: use `ax.twinx()`)
 
 import matplotlib.pyplot as plt
 import numpy as np

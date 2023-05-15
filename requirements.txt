@@ -6,3 +6,5 @@
 
 pytest~=7.2.2
 setuptools~=65.5.1
+cisc179~=0.1.0
+flask
